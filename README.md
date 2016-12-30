@@ -6,24 +6,21 @@ A cookiecutter template for generating SBT projects.
 
 
 * Install cookiecutter globally. (you will need python pip installed)
- 
-```
-#!bash
-> sudo pip install cookiecutter 
+
+```bash
+$> sudo pip install cookiecutter
 ```
 
-* Install mercurial if you don't have it
+* Install git if you don't have it
 
-```
-#!shell
-> sudo aptitued install mercurial 
+```shell
+$> sudo apt-get install git
 ```
 
 * Create a barebone sbt/scala project using cookiecutter
 
-```
-#!shell
-> cookiecutter bb:mukund_kri/scala-cookiecutter 
+```shell
+$> cookiecutter gh:mukund-krish/cookiecutter-scala
 ```
 
   cookiecutter will prompt you for name, version etc. Fill these up. At the end of this process
